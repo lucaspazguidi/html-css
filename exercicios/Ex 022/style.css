@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+
+header{
+    min-height: 250px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header > h1{
+    margin: 0px;
+    text-align: center;
+    padding-top: 65px;
+    font-size: 6em;
+}
+header > p{
+    text-align: center;
+    font-size: 18px;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+header > p > a:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
+article#primeiro-verso{
+    max-width: 700px;
+    min-width: 200px;
+}
+article > p{
+    font-weight: 550;
+    font-size: 45px;
+    padding-left: 40px;
+    line-height: 100px;
+    word-spacing: 3px;
+}  
+section{
+    min-height: 700px;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    background-image: url(imagens/background001.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+section > p{
+    background-color: rgba(2, 3, 2, 0.534);
+    width: 550px;
+    padding: 10px;
+    line-height: 100px;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.texto-padrao{
+    font-size: 3em;
+    padding-left: 30px;
+    line-height: 100px;
+    font-weight: 600;
+}
+p#segundo-verso{
+    margin-top: 90px;
+    margin-bottom: 130px;
+}
+section#segundo-fundo{
+    min-height: 700px;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    background-image: url(imagens/background002.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+section#segundo-fundo > p{
+    width: 550px;
+    padding: 10px;
+    line-height: 100px;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+div.texto-padrao > p#terceiro-verso{
+    margin-bottom: 150px;
+}
+footer{
+    height: 35px;
+    background-color: black;
+    color: white;
+}
+footer > p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
