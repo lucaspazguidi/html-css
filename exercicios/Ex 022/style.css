@@ -15,7 +15,7 @@ header > h1{
     margin: 0px;
     text-align: center;
     padding-top: 65px;
-    font-size: 6em;
+    font-size: 10vw;    
 }
 header > p{
     text-align: center;
@@ -44,11 +44,11 @@ section{
     min-height: 700px;
     background-color: black;
     color: white;
-    font-size: 3em;
+    font-size: 10vw;
     background-image: url(imagens/background001.jpg);
-    background-size: 100% 100%;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: right center;
+    background-size: cover;
 }
 section > p{
     background-color: rgba(2, 3, 2, 0.534);
@@ -60,10 +60,9 @@ section > p{
     margin-bottom: 30px;
 }
 div.texto-padrao{
-    font-size: 3em;
+    font-size: 4.5vw;
     padding-left: 30px;
     line-height: 100px;
-    font-weight: 600;
 }
 p#segundo-verso{
     margin-top: 90px;
@@ -86,6 +85,7 @@ section#segundo-fundo > p{
     padding-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+
 }
 div.texto-padrao > p#terceiro-verso{
     margin-bottom: 150px;
