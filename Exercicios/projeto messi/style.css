@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+H1{
+    margin: 0;
+}
+main{
+    background-color: antiquewhite;
+}
+p{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+div{
+    margin: center;
+    padding: 15px;
+}
