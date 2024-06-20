@@ -35,16 +35,16 @@ article#primeiro-verso{
 }
 article > p{
     font-weight: 550;
-    font-size: 45px;
+    font-size: 50px;
     padding-left: 40px;
-    line-height: 100px;
+    line-height: 90px;
     word-spacing: 3px;
 }  
 section{
     min-height: 700px;
     background-color: black;
     color: white;
-    font-size: 10vw;
+    font-size: 50px;
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-position: right center;
@@ -60,9 +60,10 @@ section > p{
     margin-bottom: 30px;
 }
 div.texto-padrao{
-    font-size: 4.5vw;
+    font-size: 50px;
     padding-left: 30px;
     line-height: 100px;
+    font-weight: 550;
 }
 p#segundo-verso{
     margin-top: 90px;
