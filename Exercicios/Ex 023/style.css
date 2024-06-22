@@ -1,4 +1,22 @@
 body{
-    margin: auto;
-    padding: 0%;
+   padding: 0px;
+   background-color: aqua;
+}
+.b{
+    width: 300px;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#q1{
+    background-color: saddlebrown;
+}
+#q2{
+    background-image: linear-gradient(to bottom, red,yellow );
+}
+#q3{
+    background-color: white;
 }
