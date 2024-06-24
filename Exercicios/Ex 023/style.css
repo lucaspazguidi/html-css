@@ -1,6 +1,10 @@
 body{
-   padding: 0px;
-   background-color: aqua;
+    height: 100vh;
+    padding: 0px;
+   background-image: url(kaneki-ken.png);
+   background-repeat: no-repeat;
+   background-position: auto;
+   background-size: auto;
 }
 .b{
     width: 300px;
