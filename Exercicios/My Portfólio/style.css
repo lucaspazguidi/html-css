@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(109, 108, 108);
+    padding: 0px;
+    margin: 0px;
+    height: 96vh;
+}
+
+.logo{
+    display: inline;
+    background-color: aquamarine;
+    float: left;
+    width: 10%;
+    height: 110px;
+}
+
+.menu{
+    background-color: black;
+    text-decoration: none;
+    display: inline;
+    float: left;
+    width: 80%;
+    height: 110px;
+}
+.menu > ul > li{
+    display: inline;
+    float: left;
+    text-decoration: none;
+}
+.menu > ul > li > a{
+    text-decoration: none;
+}
+.contact{
+    width: 10%;
+    background-color: blue;
+    display: inline;
+    float: left;
+    height: 110px;
+}
+.aboutme{
+    padding-top: 250px;
+}
+
+.aboutme .title{
+    font-weight: 500;
+    height: 30px;
+    width: 100%px;
+    font-size: 60px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+
+}
+.aboutme .textabout{
+    font-size: 25px;
+    padding-top: 50px;
+    max-width: 300px;
+    margin-left: 30px;
+}
