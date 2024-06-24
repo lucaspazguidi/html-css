@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.titulogrande{
+    background-color: aqua;
+}
+.cabecalho .menu{
+    background-color: rgb(179, 79, 79);
+}
+.imagem{
+    color: aqua;
+}
+.textopadrao{
+     background-color: blue;
+}
+.quemeusou{
+    background-color: brown;
+}
