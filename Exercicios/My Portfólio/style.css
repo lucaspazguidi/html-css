@@ -5,55 +5,60 @@ body{
     padding: 0px;
     margin: 0px;
     height: 96vh;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.logo{
-    display: inline;
-    background-color: aquamarine;
-    float: left;
-    width: 10%;
-    height: 110px;
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 100px;
+    max-height: 500px;
 }
-
 .menu{
-    background-color: black;
-    text-decoration: none;
-    display: inline;
-    float: left;
-    width: 80%;
-    height: 110px;
+    display: flex;
+    width: 70%;
+    margin: auto;
 }
-.menu > ul > li{
-    display: inline;
-    float: left;
-    text-decoration: none;
-}
-.menu > ul > li > a{
-    text-decoration: none;
+.item{
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 223, 223);
+    text-align: center;
+    flex: auto;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
 }
 .contact{
-    width: 10%;
-    background-color: blue;
-    display: inline;
-    float: left;
-    height: 110px;
+    color: rgb(31, 15, 15);
+    flex: auto;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    height: 50%;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.logo{
+    flex: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
 }
 .aboutme{
-    padding-top: 250px;
+    position:relative;
 }
-
-.aboutme .title{
-    font-weight: 500;
-    height: 30px;
-    width: 100%px;
-    font-size: 60px;
-    margin-left: 30px;
-    margin-bottom: 0px;
-
+.title{
+    position: absolute;
+    top: 200px;
 }
-.aboutme .textabout{
-    font-size: 25px;
-    padding-top: 50px;
-    max-width: 300px;
+.textabout{
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+    width: 300px;
     margin-left: 30px;
 }
