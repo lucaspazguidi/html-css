@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(54, 49, 49);
+}
+.cabeçalho > h1{
+    margin:0px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.text{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+}
+a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+main{
+    background-color: rgb(255, 255, 255);
+}
+.about-me{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    font-size:25px ;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.skill{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: auto;
+}
+.text-skills{
+    padding: 20px;
+    width: 500px;
+    background-color: blueviolet;
+    flex: auto;
+    font-size: 25px;
+}
+.imagem-1{
+    background-color: rgb(255, 255, 255);
+}
+.imagem{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+}
