@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(34, 36, 29);
+    display: flex;
+    height: 150px;
+}
+h1{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    margin: auto;
+}
+a{
+    padding: 10px;
+    padding-top: 30px;
+    
+}
